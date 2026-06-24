@@ -1,0 +1,108 @@
+/* Element Selector */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* ID Selector */
+#header{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Descendant Selector */
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+/* Pseudo Class Selector */
+nav a:hover{
+    color: yellow;
+}
+
+/* Class Selector */
+.section{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Group Selector */
+h2, h3{
+    color: #2563eb;
+}
+
+/* Text Styling */
+h1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px gray;
+}
+
+p{
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+/* Class Selector */
+.skill{
+    color: darkblue;
+    font-weight: bold;
+    margin: 5px;
+}
+
+/* Child Selector */
+section > h2{
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 5px;
+}
+
+/* Attribute Selector */
+input[type="text"]{
+    border: 2px solid blue;
+}
+
+input[type="email"]{
+    border: 2px solid green;
+}
+
+/* Multiple Selector */
+input, textarea{
+    padding: 10px;
+    width: 300px;
+}
+
+/* Button Styling */
+button{
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #1d4ed8;
+}
+
+/* Footer */
+footer{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Image Styling */
+img{
+    border-radius: 50%;
+    border: 3px solid #2563eb;
+}
